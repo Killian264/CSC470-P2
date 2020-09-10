@@ -8,3 +8,14 @@ C:\Users\Killian\Desktop\CSC470-P2\CSC470-P2\CSC470-P2\obj\Debug\CSC470_P2.Prope
 C:\Users\Killian\Desktop\CSC470-P2\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.GenerateResource.cache
 C:\Users\Killian\Desktop\CSC470-P2\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.exe
 C:\Users\Killian\Desktop\CSC470-P2\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.pdb
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe.config
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.exe
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\bin\Debug\CSC470-P2.pdb
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csprojAssemblyReference.cache
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470_P2.Dialog.resources
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470_P2.Main.resources
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470_P2.Properties.Resources.resources
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.GenerateResource.cache
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.csproj.CoreCompileInputs.cache
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.exe
+C:\Users\JohnStampe\Source\Repos\CSC470-P2\CSC470-P2\obj\Debug\CSC470-P2.pdb

@@ -20,6 +20,39 @@ namespace CSC470_P2
             this.StartPosition = FormStartPosition.CenterScreen;
 
             this.label1.Text = param;
+
+            LoadPictures();
+        }
+
+        private void LoadPictures()
+        {
+            switch(this.label1.Text)
+            {
+                case "Crappie":
+                    pictureBox1.Image = Properties.Resources.Crappie;
+                    break;
+                case "Perch":
+                    pictureBox1.Image = Properties.Resources.Perch;
+                    break;
+                case "Walleye":
+                    pictureBox1.Image = Properties.Resources.Walleye;
+                    break;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //cancel
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Release
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Keep
         }
     }
 }
