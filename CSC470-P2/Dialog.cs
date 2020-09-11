@@ -12,21 +12,31 @@ namespace CSC470_P2
 {
     public partial class Dialog : Form
     {
-        public string DialogResult = "";
-        public Dialog(string param)
+        public string fishType;
+        public OutcomeForm OCF = new OutcomeForm();
+
+        public Dialog(string fishType)
         {
             InitializeComponent();
-
             this.StartPosition = FormStartPosition.CenterScreen;
 
-            this.label1.Text = param;
+            this.fishType = fishType;
 
-            LoadPictures();
+            if (fishType == "")
+            {
+                this.OCF.SetOutcomeMsg("Choose a bait before casting!");
+                this.OCF.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                LoadPictures();
+            }
         }
 
         private void LoadPictures()
         {
-            switch(this.label1.Text)
+            switch(this.fishType)
             {
                 case "Crappie":
                     pictureBox1.Image = Properties.Resources.Crappie;
@@ -40,19 +50,25 @@ namespace CSC470_P2
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CancelButton_Click(object sender, EventArgs e)
         {
-            //cancel
+            this.OCF.SetOutcomeMsg("Decision Cancelled");
+            this.OCF.ShowDialog();
+            this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ReleaseButton_Click(object sender, EventArgs e)
         {
-            //Release
+            this.OCF.SetOutcomeMsg("Decision is to throw it back");
+            this.OCF.ShowDialog();
+            this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void KeepButton_Click(object sender, EventArgs e)
         {
-            //Keep
+            this.OCF.SetOutcomeMsg("Decision is to keep it");
+            this.OCF.ShowDialog();
+            this.Close();
         }
     }
 }

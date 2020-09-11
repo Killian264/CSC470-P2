@@ -47,7 +47,7 @@ namespace CSC470_P2
             this.openDialog.TabIndex = 1;
             this.openDialog.Text = "CAST A LINE!";
             this.openDialog.UseVisualStyleBackColor = true;
-            this.openDialog.Click += new System.EventHandler(this.openDialog_Click);
+            this.openDialog.Click += new System.EventHandler(this.OpenDialog_Click);
             // 
             // groupBox1
             // 
@@ -71,7 +71,7 @@ namespace CSC470_P2
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Crappie Bait";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -83,7 +83,7 @@ namespace CSC470_P2
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Perch Bait";
             this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.RadioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -95,7 +95,7 @@ namespace CSC470_P2
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Walleye Bait";
             this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.RadioButton3_CheckedChanged);
             // 
             // Main
             // 
